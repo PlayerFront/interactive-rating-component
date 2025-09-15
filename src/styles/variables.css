@@ -1,0 +1,31 @@
+:root {
+    /* colors */
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-grey-950: #131518;
+    --color-grey-900: #262E38;
+    --color-grey-500: #969FAD;
+    --color-orange-500: #FC7614;
+    --gradient-1:  radial-gradient(100.00% 100.00% at 50% 0%,rgba(35, 42, 52, 1),rgba(24, 30, 39, 1) 100%);
+
+    /* font */
+    --font-family: 'Overpass', sans-serif;
+    --font-size-base: 15px;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    /* spacing */
+    --spacing-0: 0px;
+    --spacing-100: 8px;
+    --spacing-200: 16px;
+    --spacing-300: 24px;
+    --spacing-400: 32px;
+    --spacing-500: 40px;
+    --spacing-1300: 104px;
+    --spacing-1700: 136px;
+
+    /* borders */
+    --border-radius-card: 2rem; /* 30px */
+    --border-radius-rating: 50%;
+    --border-radius-button: 1.5rem;
+}
