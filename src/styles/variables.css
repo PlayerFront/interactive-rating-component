@@ -6,12 +6,15 @@
     --color-grey-900: #262E38;
     --color-grey-500: #969FAD;
     --color-orange-500: #FC7614;
-    --gradient-1:  radial-gradient(100.00% 100.00% at 50% 0%,rgba(35, 42, 52, 1),rgba(24, 30, 39, 1) 100%);
+    --gradient-1: radial-gradient(100.00% 100.00% at 50% 0%, rgba(35, 42, 52, 1), rgba(24, 30, 39, 1) 100%);
 
     /* font */
     --font-family: 'Overpass', sans-serif;
     --font-size-base: 15px;
+    --font-size-title-mobile: 1.6rem;
+    --font-size-title-desktop: 1.867rem;
     --font-weight-regular: 400;
+    --font-weight-medium: 600;
     --font-weight-bold: 700;
 
     /* spacing */
@@ -23,9 +26,16 @@
     --spacing-500: 40px;
     --spacing-1300: 104px;
     --spacing-1700: 136px;
+    --card-padding-mobile: 28.5px 24px;
+    --card-padding-desktop: 34.5px 30px;
+    --thank-you-padding-mobile: 36px 24px;
+    --thank-you-padding-desktop: 44.5px 36px;
 
     /* borders */
-    --border-radius-card: 2rem; /* 30px */
+    --border-radius-card: 2rem;
+    /* 30px */
+    --border-radius-card-mobile: 1rem;
+    /* 15px */
     --border-radius-rating: 50%;
     --border-radius-button: 1.5rem;
 }

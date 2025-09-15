@@ -1,0 +1,122 @@
+.rating-card {
+    background: var(--gradient-1);
+    border-radius: var(--border-radius-card-mobile);
+    max-width: 327px;
+    margin: 0 auto;
+    padding: var(--card-padding-mobile);
+}
+
+.rating-card__icon {
+    background: var(--color-grey-900);
+    width: 40px;
+    height: 40px;
+    border-radius: var(--border-radius-rating);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-block-end: var(--spacing-300);
+}
+
+.rating-card__icon img {
+    height: 16px;
+    width: 16px;
+}
+
+.rating-card__title {
+    color: var(--color-white);
+    font-size: var(--font-size-title-mobile);
+    margin-block-end: var(--spacing-200);
+    font-weight: var(--font-weight-bold);
+}
+
+.rating-card__description {
+    color: var(--color-grey-500);
+    line-height: 1.467rem;
+    font-size: 0.933rem;
+    margin-block-end: var(--spacing-200);
+}
+
+.rating-card__numbers {
+    display: flex;
+    justify-content: space-between;
+    gap: var(--spacing-200);
+    margin-block-end: var(--spacing-300);
+    cursor: pointer;
+}
+
+.rating-card__number {
+    background: var(--color-grey-900);
+    color: var(--color-grey-500);
+    border-radius: var(--border-radius-rating);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.rating-card__number:hover {
+    background: var(--color-white);
+    color: var(--color-grey-900);
+}
+.rating-card__number:active, 
+.rating-card__number:focus {
+    background: var(--color-orange-500);
+    color: var(--color-grey-900);
+}
+.rating-card__submit, .rating-card__submit--disabled {
+    background: var(--color-orange-500);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 1rem 0;
+    border-radius: var(--border-radius-button);
+    cursor: pointer;
+    font-weight: var(--font-weight-bold);
+    letter-spacing: 1.87px;
+    color: var(--color-grey-950);
+    transition: all 0.3s ease;
+}
+.rating-card__submit:hover {
+    background: var(--color-white);
+}
+.rating-card__submit--disabled {
+    background: var(--color-grey-900);
+    color: var(--color-grey-950);
+}
+
+@media (min-width: 768px) {
+    .rating-card {
+        border-radius: var(--border-radius-card);
+        max-width: 412px;
+        padding: var(--card-padding-desktop);
+    }
+
+    .rating-card__icon {
+        width: 48px;
+        height: 48px;
+        margin-block-end: var(--spacing-300);
+    }
+
+    .rating-card__title {
+        font-size: var(--font-size-title-desktop);
+    }
+
+    .rating-card__description {
+        font-size: var(--font-size-base);
+        line-height: 1.6rem;
+    }
+
+    .rating-card__numbers {
+        gap: var(--spacing-300);
+        margin-block-end: var(--spacing-400);
+    }
+
+    .rating-card__number {
+        width: 51px;
+        height: 51px;
+    }
+}
