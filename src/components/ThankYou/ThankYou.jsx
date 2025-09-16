@@ -1,10 +1,11 @@
+import thankYouImage from '../../assets/images/illustration-thank-you.svg'
 import './ThankYou.css'
 
 const ThankYou = ({ selectedRating }) => {
     return (
         <div className="thank-you">
             <img
-                src="/src/assets/images/illustration-thank-you.svg"
+                src={thankYouImage}
                 alt="Thank you illustration"
                 className="thank-you__image"
             />

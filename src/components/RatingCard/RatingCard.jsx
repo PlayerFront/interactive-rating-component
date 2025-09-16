@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import starIcon from '../../assets/images/icon-star.svg'
 import './RatingCard.css'
 
 const RatingCard = ({ onSubmit }) => {
@@ -15,7 +16,7 @@ const RatingCard = ({ onSubmit }) => {
     return (
         <div className="rating-card">
             <div className="rating-card__icon">
-                <img src="/src/assets/images/icon-star.svg" alt="icon-star" />
+                <img src={starIcon} alt="icon-star" />
             </div>
             <div className="rating-card__content">
                 <h2 className="rating-card__title">How did we do?</h2>
