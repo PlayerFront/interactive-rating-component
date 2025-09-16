@@ -10,7 +10,11 @@ Frontend Mentor challenge solution built with React + Vite.
 
 ## Preview
 
+![Project Preview](/public/images/preview.png)
+
 ## Live Demo
+
+https://playerfront.github.io/interactive-rating-component/
 
 ## Technologies
 - React 18
